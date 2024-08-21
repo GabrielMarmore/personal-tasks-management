@@ -2,10 +2,26 @@
   "name": "personal-tasks-management",
   "version": "1.0.0",
   "description": "front-end software",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind:build": "npx tailwindcss -i ./src/styles/main.css -o ./src/output.css --watch",
+    "start": "npm run tailwind:build & npm run dev"
   },
   "author": "Gabriel Mármore",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^4.5.4",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }
