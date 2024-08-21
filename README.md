@@ -1,7 +1,10 @@
 # Personal Tasks Management
 
 ## Visão Geral
-Este projeto é um front-end simples desenvolvido com TypeScript e configurado para ser servido localmente e construído utilizando o Vite. O Vite é uma ferramenta rápida de desenvolvimento, ideal para projetos modernos front-end.
+Este projeto é um front-end simples desenvolvido com TypeScript e React, configurado para ser servido localmente e construído utilizando o Vite. Toda a aplicação está contida em um contêiner Docker, com um ambiente de desenvolvimento configurado utilizando `.devcontainer`, facilitando a consistência e portabilidade do ambiente de desenvolvimento.
+
+## Requisitos
+- Docker Desktop instalado e em execução.
 
 ## Scripts Disponíveis
 
