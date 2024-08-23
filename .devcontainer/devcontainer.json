@@ -1,0 +1,18 @@
+{
+    "name": "Workspace personal task",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "personaltasksmanagement",
+    "workspaceFolder": "/usr/src/app",
+    "customizations": { 
+        "vscode": { 
+            "extensions": [
+                "snyk-security.snyk-vulnerability-scanner",
+                "bradlc.vscode-tailwindcss",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "eamodio.gitlens"
+            ] 
+        }
+    },
+    "forwardPorts": [3000]
+}
